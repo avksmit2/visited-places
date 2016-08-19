@@ -22,7 +22,7 @@ Specifications
   <!-- 4. append numbers 1 through the inputted number into the array
     * input example: 5
     * output example: [1, 2, 3, 4, 5] -->
-  2. loop through the numbers 1 through the inputted number
+  2. loop through and append numbers 1 through the inputted number
     * input example: 5
     * output example: 1, 2, 3, 4, 5
   3. change all numbers divisible by 3 to "ping"
