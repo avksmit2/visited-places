@@ -13,6 +13,9 @@ Specifications
   <!-- 1. convert the input to an integer
     * input example: "5"
     * output example: 5 -->
+  1. make sure the user is putting in a number
+    * input example: "a"
+    * output example: "please enter a positive integer"
   1. display the result to the user
     * input example: 5
     * output example: 5
@@ -24,16 +27,16 @@ Specifications
     * output example: [1, 2, 3, 4, 5] -->
   2. loop through and append numbers 1 through the inputted number
     * input example: 5
-    * output example: 1, 2, 3, 4, 5
+    * output example: 12345
   3. change all numbers divisible by 3 to "ping"
     * input example: 5
-    * output example: 1, 2, "ping", 4, 5
+    * output example: 12"ping"45
   4. change all numbers divisible by 5 to "pong"
     * input example: 5
-    * output example:  1, 2, 3, 4, "pong"
+    * output example:  1234"pong"
   5. change all numbers divisible by 15 to "ping-pong"
     * input example: 15
-    * output example: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, "ping-pong"
+    * output example: 1234567891011121314"ping-pong"
 
 
 Setup/Installation Requirements
