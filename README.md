@@ -6,38 +6,7 @@ By Angela Smith
 
 Description
 
-This website receives a number from a user and returns numbers 1 through the number received, replacing "ping" and "pong" for numbers divisible by 3, 5 and 15.
-
 Specifications
-
-  <!-- 1. convert the input to an integer
-    * input example: "5"
-    * output example: 5 -->
-  1. make sure the user is putting in a number
-    * input example: "a"
-    * output example: "please enter a positive integer"
-  1. display the result to the user
-    * input example: 5
-    * output example: 5
-  <!-- 3. push the received number into an array
-    * input example: 5
-    * output example: [5] -->
-  <!-- 4. append numbers 1 through the inputted number into the array
-    * input example: 5
-    * output example: [1, 2, 3, 4, 5] -->
-  2. loop through and append numbers 1 through the inputted number
-    * input example: 5
-    * output example: 12345
-  3. change all numbers divisible by 3 to "ping"
-    * input example: 5
-    * output example: 12"ping"45
-  4. change all numbers divisible by 5 to "pong"
-    * input example: 5
-    * output example:  1234"pong"
-  5. change all numbers divisible by 15 to "ping-pong"
-    * input example: 15
-    * output example: 1234567891011121314"ping-pong"
-
 
 Setup/Installation Requirements
 
