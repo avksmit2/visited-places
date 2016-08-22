@@ -26,6 +26,17 @@ $(document).ready(function() {
     $("input#yearVisited").val("");
     $("input#seasonVisited").val("");
     $("input#landmarks").val("");
+    $("#placeDetails").hide();
+    
+    $(".place").last().click(function(){
+      $("#placeDetails").show();
+      $("#placeDetails h2").text(inputPlace);
+      $(".location").text(inputLocation);
+      $(".year").text(inputYear);
+      $(".season").text(inputSeason);
+      $(".landmarks").text(inputLandmarks);
+    })
+
 
   });
 });

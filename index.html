@@ -11,37 +11,51 @@
   <body>
     <div class="container">
       <h1>Places We've Visited</h1>
-      <form id="placeInfo">
-        <div class="form-group">
-          <label for="placeName">Enter a place you've visited:</label>
-          <input type="text" id="placeName" class="form-control" required>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="placeInfo">
+            <div class="form-group">
+              <label for="placeName">Enter a place you've visited:</label>
+              <input type="text" id="placeName" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="location">Enter the location the place is in:</label>
+              <input type="text" id="location" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="yearVisited">Enter the year you made the visit:</label>
+              <input type="number" id="yearVisited" class="form-control" required max="2016">
+            </div>
+            <div class="form-group">
+              <label for="seasonVisited">Enter the season when you made the visit:</label>
+              <input type="text" id="seasonVisited" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="landmarks">Enter some of the famous landmark you saw during your visit:</label>
+              <input type="text" id="landmarks" class="form-control" required>
+            </div>
+            <!-- <div class="form-group">
+              <label for="placeName"></label>
+              <input type="text" id="placeName" class="form-control" required>
+            </div> -->
+            <button class="btn btn-warning" type="submit">Add Place</button>
+          </form>
         </div>
-        <div class="form-group">
-          <label for="location">Enter the location the place is in:</label>
-          <input type="text" id="location" class="form-control" required>
+        <div class="col-md-6">
+          <div id="placeDetails">
+            <h2></h2>
+            <p>
+              Location: <span class="location"></span> <br>
+              Year Visited: <span class="year"></span> <br>
+              Season Visited: <span class="season"></span> <br>
+              Landmarks seen: <span class="landmarks"></span>
+            </p>
+          </div>
         </div>
-        <div class="form-group">
-          <label for="yearVisited">Enter the year you made the visit:</label>
-          <input type="text" id="yearVisited" class="form-control" required>
-        </div>
-        <div class="form-group">
-          <label for="seasonVisited">Enter the season when you made the visit:</label>
-          <input type="text" id="seasonVisited" class="form-control" required>
-        </div>
-        <div class="form-group">
-          <label for="landmarks">Enter some of the famous landmark you saw during your visit:</label>
-          <input type="text" id="landmarks" class="form-control" required>
-        </div>
-        <!-- <div class="form-group">
-          <label for="placeName"></label>
-          <input type="text" id="placeName" class="form-control" required>
-        </div> -->
-        <button class="btn btn-warning" type="submit">Add Place</button>
-      </form>
+      </div>
       <h2>Place Visited</h2>
-      <ul id="placeNames">
+      <ul id="placeNames"></ul>
 
-      </ul>
     </div>
   </body>
 </html>
